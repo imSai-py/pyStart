@@ -1,7 +1,7 @@
-my_list = [1,2,3,4,5,6,7,8,9,10]
+#while loop:
 
-counter = 0
-for i in my_list:
-    counter += i
-
-print("the sum of the list is: ", counter)
+while True:
+    response = input("say something: ")
+    if response == "bye":
+        print("Goodbye!")
+        break
