@@ -33,3 +33,25 @@ print('letter count: ', letter_count)
 print('digit count: ', digit_count)
 print('special count: ', special_count)
 
+print('-'*50)
+
+#3:first GUI program using basic loop and conditional logic:
+
+list =[
+    [0,0,0,1,0,0,0],
+    [0,0,1,1,1,0,0],
+    [0,1,1,1,1,1,0],
+    [1,1,1,1,1,1,1],
+    [0,0,0,1,0,0,0],
+    [0,0,0,1,0,0,0]
+]
+
+for row in list:
+    for pixels in row:
+        if (pixels == 1):
+            print('*', end='')
+        else:
+            print(' ', end='')
+    print()  
+
+
